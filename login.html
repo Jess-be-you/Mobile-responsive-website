@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME WEB DESIGN |LOGIN PAGE</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+            <div class="container">
+              <div id="branding">
+                  <h1>Acme Web Design</h1>
+              </div>
+
+              <nav>
+                  <ul>
+                    <li class="current"><a href="login.html">login</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                  </ul>
+              </nav>  
+            </div>
+        </header>
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe to our channel</h1>
+                <form>
+                   <input type="email" placeholder="Enter your email"> 
+                   <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <section id="login">
+            <div class="login_box">
+                <h2>Username</h2>
+                <form>
+                    <input type="text" placeholder="Enter your name">
+                </form>
+                <h2>Email</h2>
+                <form>
+                    <input type="email" placeholder="Enter your EmailId">
+                </form>
+                <h2>Password</h2>
+                <form>
+                    <h5>"Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"</h5>
+                    <input type="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                </form>
+            </div>
+        </section>
+</body>
+</html>
